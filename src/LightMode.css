@@ -1,0 +1,80 @@
+.root {
+    -fx-base: #322C2B;
+    -fx-background: #803D3B;
+    -fx-control-inner-background: #AF8260;
+    -fx-text-base-color: #E4C59E;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #322C2B;
+    -fx-text-fill: #E4C59E;
+    -fx-background-radius: 20px;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #803D3B;
+}
+
+.text-field {
+    -fx-background-color: #AF8260;
+    -fx-text-fill: #322C2B;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-prompt-text-fill: #939393;
+}
+
+.text-area {
+    -fx-background-color: #AF8260;
+    -fx-text-fill: #322C2B;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-alignment: top-left;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-background-color: #322C2B;
+    -fx-text-fill: #E4C59E;
+    -fx-background-radius: 20px 20px 0 0;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 14px;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-background-color: #803D3B;
+    -fx-background-radius: 20px 20px 0 0;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:hover > .tab-container > .tab-label {
+    -fx-background-color: #803D3B;
+}
+
+.check-box {
+    -fx-background-color: transparent;
+    -fx-text-fill: #322C2B;
+    -fx-font-size: 14px;
+}
+
+.check-box .box {
+    -fx-background-color: #AF8260;
+    -fx-border-color: #322C2B;
+}
+
+.root {
+    -fx-background-image: url("wallpaper.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.alert {
+    -fx-background-color: white;
+}
+
+.alert .header-panel {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: black;
+}
